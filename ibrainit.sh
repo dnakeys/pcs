@@ -7,25 +7,17 @@
 # Another fine product brought to you by IBRACORP™
 ######################################################################
 
-#logo
-logo () {
+# IBRACORP logo
+ibralogo () {
   tput clear
   tput bold
   tput setaf 1
   tee <<-EOF
-
-  ____  _   _    _    _  _________   ______       
- |  _ \| \ | |  / \  | |/ / ____\ \ / / ___|      
- | | | |  \| | / _ \ | ' /|  _|  \ V /\___ \      
- | |_| | |\  |/ ___ \| . \| |___  | |  ___) |     
- |____/|_| \_/_/   \_\_|\_\_____| |_| |____/      
-  ____           _     ___           _        _ _ 
- |  _ \ ___  ___| |_  |_ _|_ __  ___| |_ __ _| | |
- | |_) / _ \/ __| __|  | || '_ \/ __| __/ _` | | |
- |  __/ (_) \__ \ |_   | || | | \__ \ || (_| | | |
- |_|   \___/|___/\__| |___|_| |_|___/\__\__,_|_|_|
-                                                  
-
+  ___ ____  ____      _    ____ ___  ____  ____  ™
+ |_ _| __ )|  _ \    / \  / ___/ _ \|  _ \|  _ \
+  | ||  _ \| |_) |  / _ \| |  | | | | |_) | |_) |
+  | || |_) |  _ <  / ___ \ |__| |_| |  _ <|  __/
+ |___|____/|_| \_\/_/   \_\____\___/|_| \_\_|
 
 IBRAINSTALL - Installer for IBRAMENU
 Become a Member and sponsor us: https://ibracorp.io/memberships
@@ -34,7 +26,7 @@ EOF
 }
 
 disclaimer () {
-  logo
+  ibralogo
   tee <<-EOF
 
 Thank you for installing IBRAMENU!
@@ -48,7 +40,7 @@ EOF
 
 # Checklist
 checklist () {
-  logo
+  ibralogo
   tee <<-EOF
 
 Your System:
